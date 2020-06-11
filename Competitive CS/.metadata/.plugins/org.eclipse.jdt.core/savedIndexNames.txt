@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+G:\My Drive\Adnan's CS\Eclipse Stuff\Competitive CS\.metadata\.plugins\org.eclipse.jdt.core
