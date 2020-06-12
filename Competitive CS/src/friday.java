@@ -9,8 +9,9 @@ import java.io.*;
 ;public class friday{
 
 	public static void main(String[] args) throws FileNotFoundException {
-		Scanner sc = new Scanner(new File("friday.in"));
-		PrintStream outfile= new PrintStream(new FileOutputStream("friday.out"));
+		//Scanner sc = new Scanner(new File("friday.in"));
+		//PrintStream outfile= new PrintStream(new FileOutputStream("friday.out"));
+		Scanner sc = new Scanner(System.in);
 		int yearleft = sc.nextInt() - 1;
 		int year = 1900;
 		int month = 1;
@@ -39,13 +40,13 @@ import java.io.*;
 			month = 1;
 			
 		}
-		outfile.print(week[5] + " " + week[6]);
+		//outfile.print(week[5] + " " + week[6]);
 		for(int z = 0; z < 5; z++)
-			outfile.print(" " + week[z]);
-		outfile.println();
+			System.out.print(" " + week[z]);
+	//	outfile.println();
 
 		sc.close();
-		outfile.close();
+		//outfile.close();
 	}
 
 }

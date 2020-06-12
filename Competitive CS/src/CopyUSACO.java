@@ -11,7 +11,7 @@ import java.io.*;
 	public static void main(String[] args) throws FileNotFoundException {
 		//Scanner sc = new Scanner(new File("friday.in"));
 		//PrintStream outfile= new PrintStream(new FileOutputStream("ride.out"));
-		Scanner sc = new Scanner(System.io);
+		Scanner sc = new Scanner(System.in);
 		
 
 
