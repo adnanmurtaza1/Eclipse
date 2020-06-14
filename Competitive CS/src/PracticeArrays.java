@@ -53,9 +53,14 @@ public class PracticeArrays {
 		arrList.set(index, element);
 		arrList.set(0, 5);
 		arrList.set(4, 3);
+		arrList.set(4, "bye bye");
 		
 		arrList.remove(index);
 		arrList.remove(3);
+		
+		arrList.add(index, element);
+		arrList.add(4, 6)
+		arrList.add(4, "hello");
 		
 	}
 
