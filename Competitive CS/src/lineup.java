@@ -14,13 +14,13 @@ import java.io.*;
 		Scanner sc = new Scanner(System.in);
 		ArrayList<ArrayList<String>> arr = new ArrayList<ArrayList<String>>();
 		String[] cows = {"Beatrice", "Belinda", "Bella", "Bessie", "Betsy", "Blue", "Buttercup", "Sue"};
-		for(int a = 0; )
+		//for(int a = 0; )
 
 		
 		sc.close();
 		//outfile.close();
 	}
 	
-	public static 
+
 
 }

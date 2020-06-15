@@ -3,7 +3,54 @@ import java.util.*;
 public class PracticeArrays {
 
 	public static void main(String[] args) {
-		int[] array = new int[10];
+		
+		/*ArrayList<Integer> arrList = new ArrayList<Integer>();
+		arrList.add(10);
+		arrList.add(11);
+		int length = arrList.size();
+		int a = arrList.get(1);
+		arrList.add(77);
+		arrList.size();
+		arrList.remove(2);
+		arrList.set(0, 5);
+		arrList.add(25);
+		arrList.add(2, 17); */
+		
+		ArrayList<String> arrList = new ArrayList<String>();
+		arrList.add("how are you");
+		arrList.add("hello");
+		arrList.add("byebye");
+		arrList.add("hello");
+		arrList.add("see you later");
+		
+		System.out.println("OLD ARRAYLIST");
+		for(int y = 0; y <= arrList.size() - 1; y++)
+			System.out.println(arrList.get(y));
+		
+		
+		for(int x = 0; x <= arrList.size() - 1; x++)
+		{
+			if(arrList.get(x).equals("hello") )
+				arrList.set(x, "byebye");	
+		}
+		
+		System.out.println("NEW ARRAYLIST");
+		for(int y = 0; y <= arrList.size() - 1; y++)
+			System.out.println(arrList.get(y));
+		
+		
+
+		
+		
+		
+		
+	
+		
+		
+		
+		
+
+	/*	int[] array = new int[10];
 		
 		array[0] = 3;
 		array[1] = 16;
@@ -60,7 +107,7 @@ public class PracticeArrays {
 		
 		arrList.add(index, element);
 		arrList.add(4, 6)
-		arrList.add(4, "hello");
+		arrList.add(4, "hello"); */
 		
 	}
 
